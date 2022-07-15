@@ -15,12 +15,12 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <Link href='/todomanager'>
+              <Link href="/todoManager">
                 <a>Add Todo</a>
               </Link>
             </li>
             <li>
-              <Link href='/showtodos'>
+              <Link href="/showTodos">
                 <a>Todo List</a>
               </Link>
             </li>
