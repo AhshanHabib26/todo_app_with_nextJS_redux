@@ -3,7 +3,7 @@ import { deleteTodo } from "../redux/todoSlice";
 import { toast, ToastContainer } from "react-toastify";
 import Navbar from "../components/Navbar/Navbar";
 
-const showtodos = () => {
+const ShowTodos = () => {
   const todos = useSelector((state) => state.todoReducer.todos);
   const dispatch = useDispatch();
   const handleDeleteTodo = (id) => {
@@ -56,4 +56,4 @@ const showtodos = () => {
   );
 };
 
-export default showtodos;
+export default ShowTodos;

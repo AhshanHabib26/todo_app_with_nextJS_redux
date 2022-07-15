@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import { toast, ToastContainer } from "react-toastify";
 import Navbar from "../components/Navbar/Navbar";
 
-const todomanager = () => {
+const TodoManager = () => {
   
 const dispatch = useDispatch()
 
@@ -80,4 +80,4 @@ const dispatch = useDispatch()
     
 }
 
-export default todomanager;
+export default TodoManager;
